@@ -201,7 +201,7 @@ function spinSlots() {
             }
         };
         
- 
+ bot.commands.reloadCommand = [];
 
         // Load the chat package again to account for any changes
         bot.loadChat();
