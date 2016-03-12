@@ -258,7 +258,7 @@ function spinSlots() {
       motd: null,
       filterChat: true,
       etaRestriction: true,
-      welcome: true,
+      welcome: false,
       opLink: null,
       rulesLink: null,
       themeLink: null,
