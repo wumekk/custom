@@ -1,4 +1,4 @@
-REGULAMIN
+DisStream zasady
 =============================
 
 Ostatnia aktualizacja: 12 marca 2016 (ram pam pam pam jeb jeb jeb)
