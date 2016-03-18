@@ -22,7 +22,7 @@
         }
 
 	 bot.commands._nightmode = {
-            command: 'nightmode',m
+            command: 'nightmode',
             rank: 'mod',
             type: 'exact',
             functionality: function(chat, cmd) {
