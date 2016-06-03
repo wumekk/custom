@@ -69,7 +69,8 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                 if (!bot.commands.executable(this.rank, chat)) return void(0);
                 else {
-                    API.sendChat("/me Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej. Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
+                    API.sendChat("/me Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej.");
+                    API.sendChat("/me  Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
                 }
             }
         };
