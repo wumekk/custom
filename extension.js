@@ -61,6 +61,19 @@
             }
         };
         
+         bot.commands.komendadoprobraniarcs = {
+            command: 'rcs',
+            rank: 'user',
+            type: 'exact',
+            functionality: function(chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                if (!bot.commands.executable(this.rank, chat)) return void(0);
+                else {
+                    API.sendChat("/me Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej. Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
+                }
+            }
+        };
+        
 
         bot.commands._cycleCommand = { //pierwsze uruchomienie czasem nie dziala
             command: 'cykl',
