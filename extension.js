@@ -254,7 +254,7 @@ function spinSlots() {
       voteSkipLimit: 10,
       historySkip: true,
       timeGuard: true,
-      maximumSongLength: 6,
+      maximumSongLength: 5,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
