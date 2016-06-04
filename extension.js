@@ -72,7 +72,7 @@
                     API.sendChat("Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej.");
                     setTimeout(function () {
                         API.sendChat("Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
-                    }, 1000;
+                    }, 1000);
                 }
             }
         };
