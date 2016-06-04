@@ -69,9 +69,9 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                 if (!bot.commands.executable(this.rank, chat)) return void(0);
                 else {
-                    API.sendChat("/me Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej.");
+                    API.sendChat("Rozszerzenie, które daje Ci możliwość używania emotikon z twitcha i wielu innych serwisów, Autojoin który dołącza za Ciebie do kolejki, Autowoot, specjalny wygląd community i wiele wiele więcej.");
                     setTimeout(function () {
-                        API.sendChat("/me  Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
+                        API.sendChat("Zainstaluj, a przekonasz się sam: https://rcs.radiant.dj");
                     }, 1000;
                 }
             }
@@ -95,9 +95,9 @@
                         if (hnd === "dj-cycle option enabled") {
                             console.log("[Cycle] Wykryto \"Wyl\", proba wlaczenia.");
                             API.moderateDJCycle(true);
-                        } else API.sendChat("/me Nieznany status cyklu. Może to wystąpić przy pierwszym uruchamianiu komendy. Spróbuj jej użyć jeszcze raz. Jeśli błąd się powtarza, oznacza to, iż nie komenda działa i tak na razie zostanie.")
+                        } else API.sendChat("Nieznany status cyklu. Może to wystąpić przy pierwszym uruchamianiu komendy. Spróbuj jej użyć jeszcze raz. Jeśli błąd się powtarza, oznacza to, iż nie komenda działa i tak na razie zostanie.")
                     }
-                    API.sendChat("/me @Mycka1337 @Mycka1337, pokaż bicka");
+                    API.sendChat("@Mycka1337 @Mycka1337, pokaż bicka");
                     hnd = [];
                 }
             }
