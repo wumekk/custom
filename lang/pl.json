@@ -149,7 +149,7 @@
     "cookie": "@%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
     "cycleguardtime": "[@%%NAME%%] Stra\u017cnik cyklu jest ustawiony na %%TIME%% minut.",
     "dclookuprank": "[@%%NAME%%] Tylko bramkarze wzwy\u017c mog\u0105 u\u017cy\u0107 komendy dc dla innych.",
-    "emojilist": "Lista emotikon jakie uzyskujemy z RCS: %%LINK%%",
+    "emojilist": "Lista emotikon jakie są domyślnie dostępne w plug.dj: %%LINK%%",
     "notinwaitlist": "@%%NAME%%, nie jeste\u015b na li\u015bcie oczekiwania.",
     "youarenext": "@%%NAME%%, b\u0119dziesz DJem po tym utworze.",
     "youaredj": "@%%NAME%%, w\u0142a\u015bnie jeste\u015b DJem.",
