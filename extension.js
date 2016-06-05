@@ -57,7 +57,10 @@
                     }));
 			var permFrom = bot.userUtilities.getPermission(chat.uid);
                         var permUser = bot.userUtilities.getPermission(user.id);
-                        if (permUser >= permFrom) return void(0);
+                        if (permUser >= permFrom) {
+                        	API.sendChat("@" + chat.un + " nie możesz zbanować kogoś o wyższej lub takiej samej randze jak ty.");
+                        	return void(0);
+                        }
                     API.moderateBanUser(user.id, 1, API.BAN.PERMA);
                 }
             }
