@@ -16,7 +16,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['JD', 'zwis', 'skip', 'pomin', 'pomiń', 'jd', 'jebac disa', 'jebać disa' , 'jebac dissa', 'jebać dissa']; //załóżmy że to gówno działa (coś nie widzę)
+        var spamWords = ['JD', 'zwis', 'skip', 'pomin', 'pomiń', 'jd', 'jebac disa', 'jebać disa' , 'jebac dissa', 'jebać dissa', 'Jd', 'jD']; //załóżmy że to gówno działa (coś nie widzę)
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
