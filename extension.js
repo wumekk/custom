@@ -38,8 +38,7 @@
             }
         };
         
-    
-        bot.commands._ban = {
+                bot.commands._ban = {
             command: 'permaban',
             rank: 'mod',
             type: 'startsWith',
@@ -56,6 +55,9 @@
                     if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
                         name: chat.un
                     }));
+			var permFrom = bot.userUtilities.getPermission(chat.uid);
+                        var permUser = bot.userUtilities.getPermission(user.id);
+                        if (permUser >= permFrom) return void(0);
                     API.moderateBanUser(user.id, 1, API.BAN.PERMA);
                 }
             }
