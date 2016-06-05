@@ -260,7 +260,7 @@ function spinSlots() {
       historySkip: true,
       timeGuard: true,
       maximumSongLength: 5,
-      autodisable: true,
+      autodisable: false,
       commandCooldown: 30,
       usercommandsEnabled: true,
       skipPosition: 3,
